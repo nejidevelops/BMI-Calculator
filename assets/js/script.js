@@ -4,3 +4,8 @@ let comment = document.getElementById("appendComment")
 let calculateIt = document.getElementById("calculateBMI")
 let bMI;
 
+calculateIt.addEventListener("click", computedBMI)
+
+function computedBMI(){
+    
+}
