@@ -28,7 +28,34 @@ body{
     margin: 40px;
 }
 
+.content::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #fff;
+    z-index: -1; 
+}
 
+.content::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #fff;
+    z-index: -1; 
+    filter: blur(40px);
+}
+
+.content:nth-child(1)::before,
+.content:nth-child(1)::after
+{
+    background: linear-gradient(235deg,#772aff,#010615,#2196f3);
+}
 
 .content .heading{
     margin-bottom: 20px;
@@ -36,5 +63,5 @@ body{
 }
 
 .content .heading h1{
-    color: #ff43ed;
+    color: #fff;
 }
