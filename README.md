@@ -24,4 +24,7 @@ A user will be able to:
  * Access to a computing device
  * Internet access
 
- 
+# installation process
+* Clone to our repo : git clone https://github.com/NewtonOmbese/BMI-Calculator.git
+* Unzip the downloaded files in a folder of choice.
+* Open the index file from the zipped file with any browser.
