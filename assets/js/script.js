@@ -1,0 +1,6 @@
+let myHeight = document.getElementById("heightH")
+let myWeight = document.getElementById("wght")
+let comment = document.getElementById("appendComment")
+let calculateIt = document.getElementById("calculateBMI")
+let bMI;
+
