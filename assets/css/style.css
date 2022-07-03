@@ -24,7 +24,7 @@ body{
     position: relative;
     background: #060c21;
     width: 300px;
-    height: 200px;
+    height: 300px;
     margin: 40px;
 }
 
@@ -64,4 +64,23 @@ body{
 
 .content .heading h1{
     color: #fff;
+}
+
+.content .inputs{
+    width: auto;
+}
+
+.content .inputs input{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.content .inputs #wght{
+    margin-left: 8px;
+}
+
+.content .inputs button{
+    width: auto;
+    margin-top: 20px;
+    color: #060c21;
 }
