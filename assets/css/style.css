@@ -91,3 +91,8 @@ body{
     text-align: center;
     margin-left: 100px;
 }
+
+.content .inputs h2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
