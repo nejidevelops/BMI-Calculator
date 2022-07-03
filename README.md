@@ -28,3 +28,8 @@ A user will be able to:
 * Clone to our repo : git clone https://github.com/NewtonOmbese/BMI-Calculator.git
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
+
+### Technology  Used
+* We used HTML for laying out the structure of the web pages
+* The CSS used to style the web pages
+* JavaScript used to compute the tip amount and the total amount
