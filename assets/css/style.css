@@ -84,6 +84,11 @@ body{
     margin-left: 8px;
 }
 
+.content .inputs p #validationNotifier{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .content .inputs button{
     width: 100px;
     margin-top: 30px;
