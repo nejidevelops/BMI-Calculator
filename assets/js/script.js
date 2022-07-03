@@ -1,14 +1,15 @@
 let myHeight = document.getElementById("heightH")
 let myWeight = document.getElementById("wght")
 let comment = document.getElementById("appendComment")
-let calculateIt = document.getElementById("calculateBMI")
+let calculateIt = document.getElementById("calculateB")
 let bMI;
 
-calculateIt.addEventListener("click", computedBMI())
+calculateIt.addEventListener("click", computedB)
 
-function computedBMI(){
+function computedB(){
     let heightt = myHeight.value;
     let weightt = myWeight.value;
-    bMI = parseInt(weightt) / parseInt(((heightt / 100) ** 2)) 
-    comment.textContent = bMI
+    bMI = (weightt) / ((heightt ** 2)/10000) 
+    comment.textContent = bMI.toFixed(2)
+
 }
