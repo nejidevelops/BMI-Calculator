@@ -15,13 +15,13 @@ function computedB(){
     computed.textContent = bMI.toFixed(2)
 
     if(computed > 24.9){
-        statusBMI.textContent = "Your's is over weight"
+        statusBMI.textContent = "Your's is a over weight"
     }
     else if(computed >= 18.6 && computed <= 24.9){
         statusBMI.textContent = "Your's is a normal range"
     }
     else{
-        statusBMI.textContent = "Your's is under weight"
+        statusBMI.textContent = "Your's is a under weight"
     }
     clearAndAwait.forEach(input => input.value = "")
 }
