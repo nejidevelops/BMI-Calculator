@@ -7,5 +7,7 @@ let bMI;
 calculateIt.addEventListener("click", computedBMI)
 
 function computedBMI(){
+    let heightt = myHeight.value;
+    let weightt = myWeight.value;
     
 }

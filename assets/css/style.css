@@ -77,6 +77,7 @@ body{
 .content .inputs input{
     margin-left: 10px;
     margin-top: 20px;
+    color:#060c21;
 }
 
 .content .inputs #wght{
