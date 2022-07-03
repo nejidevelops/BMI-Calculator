@@ -12,9 +12,13 @@ calculateIt.addEventListener("click", computedB)
 function computedB(){
     let heightt = myHeight.value;
     let weightt = myWeight.value;
-    if(isNaN(heightt && weightt)){
+    if(isNaN(heightt)){
         validator.textContent = "Only numeric values are allowed"
     }
+    if(isNaN(weightt)){
+        validator.textContent = "Only numeric values are allowed"
+    }
+    
     bMI = (weightt) / ((heightt ** 2)/10000) 
     computed.textContent = bMI.toFixed(2)
 
