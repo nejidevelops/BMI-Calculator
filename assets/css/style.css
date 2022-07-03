@@ -19,3 +19,22 @@ body{
     flex-wrap: wrap;
 }
 
+.content{
+    margin-top: -50px;
+    position: relative;
+    background: #060c21;
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+}
+
+
+
+.content .heading{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content .heading h1{
+    color: #ff43ed;
+}
