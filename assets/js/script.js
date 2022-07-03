@@ -3,6 +3,7 @@ let myWeight = document.getElementById("wght")
 let computed = document.getElementById("appendComputed")
 let calculateIt = document.getElementById("calculateB")
 let statusBMI = document.getElementById("appendComment")
+let clearAndAwait = document.querySelectorAll("input")
 let bMI;
 
 calculateIt.addEventListener("click", computedB)
@@ -22,5 +23,6 @@ function computedB(){
     else{
         statusBMI.textContent = "Your's is under weight"
     }
+    clearAndAwait.forEach(input => input.value = "")
 }
 
