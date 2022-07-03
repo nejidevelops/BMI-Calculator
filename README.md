@@ -20,3 +20,8 @@ A user will be able to:
     2. Input weight in KG
     3. Click on calculate button to see the results after inputting the values
 
+# requirements
+ * Access to a computing device
+ * Internet access
+
+ 
