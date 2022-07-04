@@ -22,15 +22,16 @@ function computedB(){
     bMI = (weightt) / ((heightt ** 2)/10000) 
     computed.textContent = bMI.toFixed(2)
 
-    if(computed > 24.9){
-        statusBMI.textContent = "Your's is a over weight"
+    if(bMI > 24.9){
+        statusBMI.textContent = "Your's is an over weight"
     }
-    else if(computed >= 18.6 && computed <= 24.9){
+    else if(bMI >= 18.6 && bMI <= 24.9){
         statusBMI.textContent = "Your's is a normal range"
     }
-    else if(computed < 18.6){
-        statusBMI.textContent = "Your's is a under weight"
+    else if(bMI < 18.6){
+        statusBMI.textContent = "Your's is an under weight"
     }
+
     clearAndAwait.forEach(input => input.value = "")
 }
 
