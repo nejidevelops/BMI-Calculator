@@ -12,10 +12,7 @@ calculateIt.addEventListener("click", computedB)
 function computedB(){
     let heightt = myHeight.value;
     let weightt = myWeight.value;
-    if(isNaN(heightt)){
-        validator.textContent = "Only numeric values are allowed"
-    }
-    if(isNaN(weightt)){
+    if(isNaN(heightt) || isNaN(weightt)){
         validator.textContent = "Only numeric values are allowed"
     }
     
@@ -25,11 +22,11 @@ function computedB(){
     if(bMI > 24.9){
         statusBMI.textContent = "Your's is an over weight"
     }
-    else if(bMI >= 18.6 && bMI <= 24.9){
+    else if(bMI > 18.6){
         statusBMI.textContent = "Your's is a normal range"
     }
     else if(bMI < 18.6){
-        statusBMI.textContent = "Your's is an under weight"
+        statusBMI.textContent = "Your's is an under weight ukule matunda"
     }
 
     clearAndAwait.forEach(input => input.value = "")
